@@ -15,7 +15,7 @@ problem to solve. Local-first, privacy-first, on-prem-friendly.
 | **[heddle](https://github.com/getheddle/heddle)** | The runtime. Python actor-mesh over NATS. Six shipped workers, Workshop web UI, RAG, councils, MCP gateway. Wire-protocol source of truth. | v0.9.2 — active |
 | **[heddle-sdk](https://github.com/getheddle/heddle-sdk)** | Foreign-language SDKs. .NET and Swift, with NATS adapters. Write Heddle processor workers in C# or Swift. | In development |
 | **[warp-design](https://github.com/getheddle/warp-design)** | Vision and ADRs for *warp* — a macOS-first ad-hoc cluster orchestrator. Pre-implementation; production code lands in `warp` later. | Design phase |
-| **[heddle-agent-toolkit](https://github.com/getheddle/heddle-agent-toolkit)** | Shared AI-agent guidance, skills, and subagents for the family. Anchors (philosophy, invariants, contract map) + install.sh. | Stable |
+| **[heddle-workspace](https://github.com/getheddle/heddle-workspace)** | Two pillars for the family: (1) shared AI-agent guidance — anchors (philosophy, invariants, contract map), skills, subagents; (2) workspace lifecycle — `.heddle-workspace.yaml` manifest, `bin/workspace` CLI for bootstrap and sync across machines. | Stable |
 
 ## 60 seconds to your first workflow
 
